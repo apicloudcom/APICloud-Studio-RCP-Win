@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Export-Package: com.apicloud.resource
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.swt;bundle-versio
+ n="3.7.2",org.eclipse.jface;bundle-version="3.7.0",org.eclipse.ui;bun
+ dle-version="3.7.0",com.apicloud.commons.model;bundle-version="1.0.0"
+Bundle-Vendor: APICLOUD
+Bundle-ActivationPolicy: lazy
+Bundle-Version: 1.0.0.201509281414
+Bundle-Name: Resource
+Bundle-Activator: com.apicloud.resource.Activator
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.apicloud.resource
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+
+

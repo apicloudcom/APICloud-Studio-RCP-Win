@@ -1,0 +1,5 @@
+{"body": [{"id":"bottomNavigation", "name":"\u4E0B\u5BFC\u822A", "image":"icons/1.png", "selectImage":"icons/11.png","reViewImage":"icons/footerNavFM.png"},
+{"id":"homeFM", "name":"\u9875\u9762\u5BFC\u822A",  "image":"icons/2.png", "selectImage":"icons/21.png","reViewImage":"icons/homeFM.png"},
+{"id":"siderNavigation",  "name":"\u62BD\u5C49\u5F0F", "image":"icons/3.png", "selectImage":"icons/31.png","reViewImage":"icons/choutishiFM.png"},
+{"id":"helloApp",  "name":"\u65E0\u6846\u67B6", "image":"icons/99.png", "selectImage":"icons/991.png","reViewImage":"icons/helloApp.png"}
+]}

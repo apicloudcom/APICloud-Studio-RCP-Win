@@ -1,0 +1,197 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: "黑体";
+    width: 780px;
+    height: 570px;
+    font-size: 14px;
+}
+.wrap {
+    width: 780px;
+    height: 480px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -400px;
+    margin-top: -250px;
+    text-align: center;
+}
+.wrap ul{
+    -webkit-padding-start:0;
+    margin-left: -71px;
+}
+.wrap span{
+    z-index: 3;
+    font-family: '微软雅黑';
+    font-size: 2.3em;
+    color: #24daf2;
+    display: block;
+    margin-top: 55px;
+}
+.wrap div{
+    text-align: center;
+    width: 100%;
+}
+#startPage1{
+    background: url('images/guide1_bg.png') no-repeat;
+}
+#page1Img{
+    margin-top: 34px;
+}
+#startPage2{
+    background: url('images/guide2_bg.png') no-repeat;
+}
+#page2Img{
+    margin-top: 68px;
+}
+#startPage3{
+    background: url('images/guide3_bg.png') no-repeat;
+    
+}
+#page3Img{
+    margin-top: 92px;    
+}
+#startPage4{
+    background: url('images/guide4_bg.png') no-repeat;
+    
+}
+#page4Img{
+    margin-top: 53px;
+}
+#startPage5{
+    background: url('images/guide5_bg.png') no-repeat;
+    
+}
+#page5Img{
+    margin-top: 25px;
+}
+#startPage6{
+    background: url('images/guide6_bg.png') no-repeat;
+    box-shadow: 2px 2px 50px rgba(0,0,0,0.4);
+}
+#page6Img{
+    margin-top: 60px;
+    line-height: 0;
+    text-align: center;
+}
+#page6Img li{
+    display: inline-block;
+}
+.iconsTop li{
+    margin-left: 70px;
+    width: 100px;
+    padding-top: 120px;
+    cursor: pointer;
+}
+
+#bottomArea{
+    line-height: 15px;
+    margin-top: 40px;
+    background: rgba(172,172,172,0.2);
+}
+
+#btmIcons{
+    width: 68%;
+    margin-left: 16%;
+    padding: 44px 0px;
+}
+
+#prePage{
+    z-index: 9;
+    position: absolute;
+    left: 40px;
+    top: 235px;
+    width: 37px;
+    height: 37px;
+    line-height: 0;
+    background: url('images/left_arrow.png') no-repeat;
+}
+#prePage:hover{
+    z-index: 9;
+    position: absolute;
+    left: 39px;
+    top: 235px;
+    width: 37px;
+    height: 37px;
+    line-height: 0;
+    background: url('images/left_arrow2.png') no-repeat;
+}
+#nextPage{
+    z-index: 9;
+    position: absolute;
+    left: 734px;
+    top: 235px;
+    width: 37px;
+    height: 37px;
+    line-height: 0;
+    background: url('images/right_arrow.png') no-repeat;
+}
+#nextPage:hover{
+    z-index: 9;
+    position: absolute;
+    left: 735px;
+    top: 235px;
+    width: 37px;
+    height: 37px;
+    line-height: 0;
+    background: url('images/right_arrow2.png') no-repeat;
+}
+
+.linkIndex {padding-left: 20px;}
+
+#btmIcons tr td{cursor: pointer;width: 20%;padding-top: 5px;}
+
+#addNewProject{
+    background: url('images/guide6_add.png') no-repeat;
+}
+#addNewProject:hover{
+    background: url('images/guide6_add2.png') no-repeat;
+}
+#importProject{
+    background: url('images/guide6_import.png') no-repeat;
+}
+#importProject:hover{
+    background: url('images/guide6_import2.png') no-repeat;
+}
+
+#start6_td1{
+    width: 48px;
+    height: 43px;
+    background:url('images/guide6_icon3.png') no-repeat 50%;
+}
+#start6_td2{
+    width: 32px;
+    height: 43px;
+    background:url('images/guide6_icon4.png') no-repeat 50%;
+}
+#start6_td3{
+    width: 44px;
+    height: 43px;
+    background:url('images/guide6_icon5.png') no-repeat 50%;
+}
+#start6_td4{
+    width: 46px;
+    height: 43px;
+    background:url('images/guide6_icon6.png') no-repeat 50%;
+}
+#start6_td5{
+    width: 44px;
+    height: 43px;
+    background:url('images/guide6_icon7.png') no-repeat 50%;
+}
+#start6_td1:hover{
+    background:url('images/guide6_icon3_2.png') no-repeat 50%;
+}
+#start6_td2:hover{
+    background:url('images/guide6_icon4_2.png') no-repeat 50%;
+}
+#start6_td3:hover{
+    background:url('images/guide6_icon5_2.png') no-repeat 50%;
+}
+#start6_td4:hover{
+    background:url('images/guide6_icon6_2.png') no-repeat 50%;
+}
+#start6_td5:hover{
+    background:url('images/guide6_icon7_2.png') no-repeat 50%;
+}

@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>startpage</title>
+        <style type="text/css">
+            body, h1, h2, h3, h4, h5, h6, a{
+                font-family:"ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande","Helvetica Neue",Helvetica,Arial,"Microsoft YaHei","Hiragino Sans GB","Hiragino Sans GB W3","WenQuanYi Micro Hei",sans-serif;
+                -webkit-font-smoothing:antialiased;
+            }
+            body{font-size: 14px;}
+            body,ul,li,h1{margin:0; padding: 0;}
+            ul, li{list-style: none;}
+            a{text-decoration: none;}
+            #nav{padding: 40px 0;}
+            #nav .nav{display: inline-block; width: 24%; text-align: center;}
+            #nav a{
+                display: inline-block; width: 90px; padding-top: 80px; color: #5ab5e4;
+                text-decoration: none;
+                background-position: center top;
+                background-repeat: no-repeat;
+            }
+            #nav .create{
+                background-image: url(./img/create.png);
+            }
+            #nav .import{
+                background-image: url(./img/import.png);
+            }
+            #nav .docs{
+                background-image: url(./img/docs.png);
+            }
+            #nav .console{
+                background-image: url(./img/console.png);
+            }
+            #nav .create:hover{
+                background-image: url(./img/create-l.png);
+            }
+            #nav .import:hover{
+                background-image: url(./img/import-l.png);
+            }
+            #nav .docs:hover{
+                background-image: url(./img/docs-l.png);
+            }
+            #nav .console:hover{
+                background-image: url(./img/console-l.png);
+            }
+            #links{
+                background-color: #5cb4e4;
+                padding: 40px 10%;
+            }
+            #links ul{overflow: hidden;}
+            #links ul li{
+                float: left; width: 50%; line-height: 2; white-space: nowrap;
+                overflow: hidden; 
+                text-overflow:ellipsis;
+            }
+            #links a{color: #fff;}
+            #links a:hover{text-decoration: underline;}
+            #apps{}
+            #apps h1{
+                font-size: 24px; color: #5cb5e1; margin-top: 40px; font-weight: normal;
+                text-align: center;
+            }
+            #apps ul{overflow: hidden; padding: 40px 10%;}
+            #apps ul li{
+                float: left; width: 14%; text-align: center;
+            }
+            #apps ul li a{
+                display: inline-block; color:#858c96;
+            }
+            #apps ul li.more a{
+                margin-right: 0; background: url(./img/more.png) no-repeat;
+                width: 65px; text-align: center;
+            }
+            #apps ul li.more a:hover{
+                background: url(./img/more-l.png) no-repeat;
+            }
+            #apps ul li a img{
+                width: 60px; height: 60px; border-radius: 10px; border: 0;
+            }
+            #apps ul li a span{
+                margin-top: 10px; white-space: nowrap; overflow: hidden;
+                display: block; 
+            }
+            #apps ul li.more span{
+                padding-top: 60px;
+            }
+
+            #links .wrap{
+                color: #fff; background: url(./img/offline.png) no-repeat left center;
+                height: 40px; line-height: 40px; padding-left: 61px;
+                width: 300px; margin: 0 auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="nav">
+            <div class="nav">
+                <a href="javascript:void(0)" onclick="create();" class="create">新建App项目</a>
+            </div>
+            <div class="nav">
+                <a href="javascript:void(0)" onclick="importApp();" class="import">导入App项目</a>
+            </div>
+            <div class="nav">
+                <a href="javascript:void(0)" onclick="openurl('http://docs.apicloud.com/');
+" class="docs">查看文档</a>
+            </div>
+            <div class="nav">
+                <a href="javascript:void(0)" onclick="openurl('http://apicloud.com/console');" class="console">访问控制台</a>
+            </div>
+        </div>
+        <div id="links">
+            <div class="wrap">没有网络，请连接网络以获取社区最新动态</div>
+        </div>
+        <div id="apps">
+            <h1>社区高质源码分享</h1>
+            <ul>
+                <li>
+                    <a href="javascript:void(0)" onclick="openurl('http://resource.apicloud.com/demo/O2O.zip');">
+                        <img src="./img/jincheng.png">
+                        <span>玩转晋城</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" onclick="openurl('http://resource.apicloud.com/demo/maimai.rar');">
+                        <img src="./img/maimai.png">
+                        <span>仿脉脉</span>
+                    </a>
+                </li>
+                <li>
+                    <a onclick="openurl('http://resource.apicloud.com/demo/dianping.rar');" href="javascript:void(0)">
+                        <img src="./img/dianping.png">
+                        <span>仿大众点评</span>
+                    </a>
+                </li>
+                <li>
+                    <a onclick="openurl('http://resource.apicloud.com/demo/QQmovie.zip');" href="javascript:void(0)">
+                        <img src="./img/qqmovie.png">
+                        <span>仿QQ电影票</span>
+                    </a>
+                </li>
+                <li>
+                    <a onclick="openurl('http://resource.apicloud.com/demo/tuniu.zip');" href="javascript:void(0)">
+                        <img src="./img/tuniu.png">
+                        <span>仿途牛旅行</span>
+                    </a>
+                </li>
+                <li>
+                    <a onclick="openurl('http://resource.apicloud.com/demo/sohuvideo.rar');" href="javascript:void(0)">
+                        <img src="./img/sohuvideo.png">
+                        <span>仿搜狐视频</span>
+                    </a>
+                </li>
+                <li class="more">
+                    <a onclick="openurl('http://docs.apicloud.com/APICloud/videos-and-codes');" href="javascript:void(0)">
+                        <span>查看更多</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </body>
+    <div style="display:none">
+        <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1253600816'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1253600816' type='text/javascript'%3E%3C/script%3E"));</script>
+    </div>
+</html>

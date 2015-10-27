@@ -1,0 +1,61 @@
+html,body{
+    margin: 0; padding: 0; background-color: #fff;
+    font-family: "黑体";
+}
+#wrap{width: 760px; margin: 0 auto; background-color: #f7f7f7;}
+#header{
+    height: 90px; line-height: 90px; background-color: #fff;
+}
+#header h1{
+    font-size: 32px; color: #b3c67f; text-align: center; font-weight: normal;
+}
+#main{
+    padding: 20px 0;
+}
+#main table{width: 100%;}
+#main td.style{
+    text-align: center;
+}
+#main table td span{
+    display: inline-block; margin-right: 40px; width: 35px; height: 35px;border-radius: 35px;
+    border:4px solid #fff; cursor: pointer;
+}
+#main table span.style1{
+    background-color: #fff;
+}
+#main table span.style2{
+    background-color: #fffcf3;
+}
+#main table span.style3{
+    background-color: #002140;
+}
+#main table span.style4{
+    background-color: #272822;
+}
+#main table span.active{
+    box-shadow: 0px 4px 4px #ccc;
+}
+#preview{text-align: center; padding-top: 20px;}
+#preview img{
+    background-color: #c9daa6;
+    display: inline-block; width: 420px; height: 240px;
+    box-shadow: 0px 8px 20px #999;
+}
+
+#btns{
+    padding: 0 0 30px; text-align: center;
+}
+#btns span, #btns i, #btns a{
+    display: inline-block; font-size: 14px; line-height: 23px; 
+    font-style: normal;
+}
+#btns .go{
+    background: url(img/green_arr_l.png) no-repeat; padding-left: 8px;
+}
+#btns .go i{
+    background: url(img/green_arr_r.png) no-repeat right top; padding-right: 8px;
+}
+#btns .go a{
+    text-decoration: none;
+    color: #fff; background-color: #359592; padding: 0 3em;
+}

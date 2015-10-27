@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>QuickStart</title>
+        <link rel="stylesheet" href="step5.css">
+        <script type="text/javascript" src="jquery.js"></script>
+        <script type="text/javascript">
+            $(function(){
+                var $styles = $('#main .style span');
+                var $preview = $('#preview img');
+
+                $styles.each(function(index, el) {
+                    var i = index + 1;
+                    var $this = $(this);
+                    $this.on('click',function(){
+                    	var type = $this.attr('def');
+                    	selectTheme(type);
+                        $styles.removeClass('active');
+                        $this.addClass('active');
+                        $preview.attr('src','img/style'+ i +'.png');
+                    });
+                });
+
+            });
+        </script>
+    </head>
+    <body>
+        <div id="wrap">
+            <div id="header">
+                <h1>选择你最喜欢的配色方案</h1>
+            </div>
+            <div id="main">
+                <table>
+                    <tr>
+                        <td class="style">
+                            <span class="style1 active" def="Light Studio"></span><span class="style2" def="uzLight"></span><span class="style3" def="Cobalt"></span><span class="style4" def="Monokai"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" id="preview">
+                            <img src="img/style1.png" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="btns">
+                <span class="go"><i><a href="javascript:;" onclick="closea()">完成</a></i></span>
+            </div>
+        </div>
+    </body>
+</html>

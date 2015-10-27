@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Export-Package: com.apicloud.loader.platforms.android
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,com.aptana.cor
+ e;bundle-version="3.3.0",com.apicloud.loader.api;bundle-version="1.0.
+ 0",com.apicloud.commons.util;bundle-version="1.0.0",com.apicloud.comm
+ ons.model;bundle-version="1.0.0"
+Bundle-Vendor: APICLOUD
+Bundle-ActivationPolicy: lazy
+Bundle-Version: 1.0.0.201509281414
+Bundle-Name: Android
+Bundle-Activator: com.apicloud.loader.platforms.android.ADBActivator
+Bundle-ManifestVersion: 2
+Import-Package: com.aptana.scripting,com.aptana.scripting.ui
+Bundle-SymbolicName: com.apicloud.loader.platforms.android
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+
+

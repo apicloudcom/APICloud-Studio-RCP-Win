@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Export-Package: com.apicloud.loader.platforms.ios
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Bundle-Name: Ios
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,com.apicloud.c
+ ommons.util;bundle-version="1.0.0",com.apicloud.resource;bundle-versi
+ on="1.0.0",com.apicloud.commons.model;bundle-version="1.0.0",com.apic
+ loud.commons.lib;bundle-version="1.0.0"
+Bundle-Vendor: APICLOUD
+Bundle-Version: 1.0.0.201509281414
+Bundle-ManifestVersion: 2
+Bundle-Activator: com.apicloud.loader.platforms.ios.ANBActivator
+Import-Package: com.apicloud.loader.api
+Bundle-SymbolicName: com.apicloud.loader.platforms.ios;singleton:=true
+
+
